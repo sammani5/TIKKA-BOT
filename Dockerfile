@@ -1,13 +1,17 @@
-FROM fusuf/whatsasena:latest
+FROM node:lts-buster
+ 
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/zim-bot/zimbot-v4  /Drips/Zimbotv4
-
-WORKDIR /Drips/Zimbotv4
-
-ENV TZ=Africa/Harare
+COPY package.json .
 
 RUN npm install
 
-RUN npm install supervisor -g
-RUN yarn install --ignore-engines
-CMD ["node", "index.js"]
+COPY . .
+
+CMD ["node", "."]
