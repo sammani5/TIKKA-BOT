@@ -1,8 +1,8 @@
 {
-  "name": "TIKKA BOT",
+  "name": "📍TIKKA BOT📍",
   "description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/tikkalk/TIKKA-BOT",
-  "logo": "",
+  "logo": "https://telegra.ph/file/6e13c569eff50fde48f89.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "stack": "container",
   "addons": [{
