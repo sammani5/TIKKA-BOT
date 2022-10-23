@@ -1,7 +1,7 @@
 {
-  "name": "Zim Bot Inc",
+  "name": "TIKKA BOT",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/zim-bot/zimbot-v4",
+  "repository": "https://github.com/tikkalk/TIKKA-BOT",
   "logo": "",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "stack": "container",
