@@ -21,7 +21,7 @@
 //┗━━━━━━━━━━━━━━━━━━━━━━━━━
 //
 
-require('./bot')
+require('./config')
 const { default: ZimBotIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
@@ -151,11 +151,11 @@ mentions: [num],
 fileName: `WELCOME TO ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `TIKKA BOT`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
+title:"DON'T FORGOT SMILE TO DAY",
 body:"SUB DRIPS OFC",
 showAdAttribution: true,
 mediaType:2,
@@ -184,11 +184,11 @@ mentions: [num],
 fileName: `HE/SHE IS GONE BRO ${metadata.subject}`,
 fileLength: 99999999999999,
 caption: he,
-footer: `©ZIM BOT INC 2022`,
+footer: `TIKKA BOT 2022`,
 buttons: buttons,
 headerType: 4,
 contextInfo: { externalAdReply:{
-title:"ZIM BOT V4",
+title:"BYE DON'T COME BACK HERE OK",
 body:"SUB DRIPS OFC",
 showAdAttribution: true,
 mediaType:2,
