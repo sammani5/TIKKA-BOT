@@ -96,7 +96,7 @@ emeraldawal: 5,
 umpanawal: 5,
 potionawal: 1
 }
-global.thumb = fs.readFileSync('./Zimbot/drips.jpg')
+global.thumb = fs.readFileSync('./TIKKA-BOT/alive.jpg')
 global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
 global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
 
